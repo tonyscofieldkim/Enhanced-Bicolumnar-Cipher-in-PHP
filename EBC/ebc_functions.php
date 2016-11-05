@@ -8,8 +8,8 @@
 *@see ebc.php
 *@licence MIT
 ***/
-require_once("CLASS/ebc.php");
-require_once("CLASS/ebc_exceptions.php");
+require_once("ebc.php");
+require_once("ebc_exceptions.php");
 
 function ebc_encrypt($plain=false,$key=false,$advanced=false){
 $plainT=$plain;
